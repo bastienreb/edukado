@@ -18,7 +18,7 @@ gem 'duktape'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+# gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -43,6 +43,11 @@ end
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
+  # Replace the standard Rails error page with a much better and more useful error page
+  gem "better_errors"
+  gem "binding_of_caller"
+  # Rails Database Viewer and SQL Query Runner
+  gem 'rails_db', '2.0.4'
 end
 
 group :test do
@@ -55,3 +60,36 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Seed with Faker
+gem 'faker'
+
+# Authenticate with Devise
+gem 'devise'
+
+# Add jQuery support to Rails
+gem 'jquery-rails'
+
+# Load environment variables from '.env'
+gem 'dotenv-rails', groups: [:development, :test]
+
+# Official Twilio SendGrid Led, Community Driven Ruby API Library to send emails
+gem 'sendgrid-ruby'
+
+# Show objects in formatted columns for easy reading
+gem 'table_print'
+
+# A runtime developer console and IRB alternative with powerful introspection capabilities
+gem 'pry'
+
+# 'Domain Specific Language' (DSL) testing tool to test Ruby code
+gem 'rspec'
+
+# Static code analyzer and formatter based on the community Ruby style guide
+gem 'rubocop'
+
+# Read/Write files/spreadsheets in Google Drive/Docs
+gem 'google_drive'
+
+# HTML, XML, SAX, and Reader parser
+gem 'nokogiri'
