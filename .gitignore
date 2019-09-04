@@ -33,4 +33,5 @@
 config/database.yml
 
 # Ignore Gemfile
-# Gemfile
+Gemfile
+Gemfile.lock
