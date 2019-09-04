@@ -48,6 +48,8 @@ group :development do
   gem "binding_of_caller"
   # Rails Database Viewer and SQL Query Runner
   gem 'rails_db', '2.0.4'
+  # Open emails in the browser
+  gem 'letter_opener'
 end
 
 group :test do
@@ -73,9 +75,6 @@ gem 'jquery-rails'
 # Load environment variables from '.env'
 gem 'dotenv-rails', groups: [:development, :test]
 
-# Official Twilio SendGrid Led, Community Driven Ruby API Library to send emails
-gem 'sendgrid-ruby'
-
 # Show objects in formatted columns for easy reading
 gem 'table_print'
 
@@ -93,3 +92,9 @@ gem 'google_drive'
 
 # HTML, XML, SAX, and Reader parser
 gem 'nokogiri'
+
+# Forms made easy for Rails
+gem 'simple_form'
+
+# Send emails with SendGrid
+gem 'sendgrid-ruby'
