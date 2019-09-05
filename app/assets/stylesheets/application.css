@@ -18,11 +18,13 @@
  *= require workwise/animate
  *= require workwise/bootstrap
  *= require workwise/flatpickr.min
- *= require workwise/font-awesome.min
  *= require workwise/jquery.mCustomScrollbar.min
  *= require workwise/line-awesome
- *= require workwise/responsive
+ *= require workwise/line-awesome-font-awesome
+ *= require css/all
+ *= require workwise/font-awesome.min
  *= require workwise/style
+ *= require workwise/responsive
  *= require slick
  *= require font-awesome
 
