@@ -10,8 +10,23 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+
+
 //= require rails-ujs
 //= require activestorage
-//= require jquery3
-//= require jquery_ujs
 //= require_tree .
+//= require workwise/jquery.min
+//= require workwise/popper
+//= require workwise/jquery.mCustomScrollbar
+//= require workwise/bootstrap
+
+//= require slick.min
+//= require workwise/scrollbar
+//= require workwise/script
+//= require workwise/bootstrap.bundle
+//= require workwise/flatpickr.min
+
+
+
+

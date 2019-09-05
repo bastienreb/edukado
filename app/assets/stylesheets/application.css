@@ -10,6 +10,22 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+
+
+
  *= require_tree .
  *= require_self
+ *= require workwise/animate
+ *= require workwise/bootstrap
+ *= require workwise/flatpickr.min
+ *= require workwise/jquery.mCustomScrollbar.min
+ *= require workwise/line-awesome
+ *= require workwise/line-awesome-font-awesome
+ *= require css/all
+ *= require workwise/font-awesome.min
+ *= require workwise/style
+ *= require workwise/responsive
+ *= require slick
+ *= require font-awesome
+
  */

@@ -70,7 +70,7 @@ gem 'faker'
 gem 'devise'
 
 # Add jQuery support to Rails
-gem 'jquery-rails'
+# gem 'jquery-rails'
 
 # Load environment variables from '.env'
 gem 'dotenv-rails', groups: [:development, :test]
@@ -96,5 +96,14 @@ gem 'nokogiri'
 # Forms made easy for Rails
 gem 'simple_form'
 
-# Send emails with SendGrid
-gem 'sendgrid-ruby'
+# Send emails with Mailjet
+gem 'mailjet'
+
+# Add Bootstrap
+gem 'bootstrap-sass'
+
+# Add Font-Awesome
+gem 'font-awesome-rails'
+
+# Provide popper.js assets as a Ruby gem
+gem 'popper_js', '~> 1.14.5'
