@@ -62,7 +62,7 @@ Rails.application.configure do
   #Use devise with the localhost
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
-  # Send emails with letter_opener
-  config.action_mailer.delivery_method = :letter_opener
+  # Send emails with mailjet
+  config.action_mailer.delivery_method = :mailjet
   config.action_mailer.perform_deliveries = true
 end
