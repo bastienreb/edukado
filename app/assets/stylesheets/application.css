@@ -22,7 +22,7 @@
  *= require workwise/line-awesome-font-awesome
  *= require css/all
  *= require workwise/font-awesome.min
- *= require workwise/jquery.mCustomScrollbar.min
+ * require workwise/jquery.mCustomScrollbar.min
  *= require slick
  *= require slick-theme
  *= require workwise/style
