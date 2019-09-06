@@ -17,7 +17,7 @@
  *= require_self
 
  *= require workwise/animate
- *= require workwise/bootstrap
+ * require workwise/bootstrap
  *= require workwise/line-awesome
  *= require workwise/line-awesome-font-awesome
  *= require css/all
