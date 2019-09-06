@@ -59,7 +59,10 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  # Send emails with letter_opener
-  config.action_mailer.delivery_method = :letter_opener
+  #Use devise with the localhost
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  # Send emails with mailjet
+  config.action_mailer.delivery_method = :mailjet
   config.action_mailer.perform_deliveries = true
 end
