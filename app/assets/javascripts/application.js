@@ -16,16 +16,17 @@
 //= require rails-ujs
 //= require activestorage
 //= require_tree .
+
 //= require workwise/jquery.min
 //= require workwise/popper
-//= require workwise/jquery.mCustomScrollbar
 //= require workwise/bootstrap
-
+//= require workwise/jquery.mCustomScrollbar
 //= require slick.min
 //= require workwise/scrollbar
 //= require workwise/script
-//= require workwise/bootstrap.bundle
-//= require workwise/flatpickr.min
+
+// require workwise/bootstrap.bundle
+// require workwise/flatpickr.min
 
 
 
